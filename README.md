@@ -26,14 +26,7 @@
 
 1. Download **[Matrix.zip](https://github.com/4os/Matrix/releases/latest/download/Matrix.zip)** from the [latest release](https://github.com/4os/Matrix/releases/latest).
 2. Double-click the zip to unpack it, then drag **Matrix.app** into your **Applications** folder.
-3. Open Matrix. It's a free project that isn't notarized by Apple, so macOS asks you to confirm the first launch:
-   - **macOS 15 or later:** when you see *"Apple could not verify Matrix…"*, click **Done**. Open **System Settings → Privacy & Security**, scroll down to *"Matrix was blocked…"*, click **Open Anyway** and confirm.
-   - **macOS 14:** right-click Matrix.app in Applications, choose **Open**, then **Open** again.
-
-   You only need to do this once. If you prefer the Terminal, this does the same:
-   ```sh
-   xattr -dr com.apple.quarantine /Applications/Matrix.app
-   ```
+3. Open Matrix. It's signed with a Developer ID and notarized by Apple, so it opens without a security warning.
 4. The Matrix icon appears in the menu bar. Click it to open the panel.
 
 **Requirements:** a Mac with Apple Silicon (M1 or later) running macOS 14 Sonoma or later.
@@ -104,6 +97,8 @@ git clone https://github.com/4os/Matrix.git
 cd Matrix
 scripts/install.sh      # builds a Release copy and installs it to /Applications
 ```
+
+Builds from source are signed only for your own Mac. Published releases are made with `scripts/release.sh <version>`, which builds, signs with a Developer ID, notarizes, staples and publishes to GitHub Releases (the one-time setup is described at the top of the script).
 
 To work on it in Xcode, run `xcodegen generate` and open `Matrix.xcodeproj`. The project is generated from `project.yml`, so edit that file rather than the Xcode project. Tests run with <kbd>⌘U</kbd>.
 
