@@ -113,4 +113,4 @@ To work on it in Xcode, run `xcodegen generate` and open `Matrix.xcodeproj`. The
 
 ## License
 
-[MIT](LICENSE) © 2026 Ahmet Onur
+[MIT](LICENSE) © 2026 4os

@@ -27,7 +27,7 @@ targets:
         LSUIElement: true
         LSMinimumSystemVersion: $(MACOSX_DEPLOYMENT_TARGET)
         LSApplicationCategoryType: public.app-category.utilities
-        NSHumanReadableCopyright: "© 2026 Ahmet Onur. MIT License."
+        NSHumanReadableCopyright: "© 2026 4os. MIT License."
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.ahmetonurs.Matrix
