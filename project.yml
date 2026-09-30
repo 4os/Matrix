@@ -1,0 +1,73 @@
+name: Matrix
+options:
+  bundleIdPrefix: com.ahmetonurs
+  deploymentTarget:
+    macOS: "14.0"
+  developmentLanguage: en
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "6.0"
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+    ARCHS: arm64
+targets:
+  Matrix:
+    type: application
+    platform: macOS
+    sources:
+      - path: Sources
+    info:
+      path: Sources/Info.plist
+      properties:
+        CFBundleDisplayName: Matrix
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        CFBundleLocalizations: [en, tr]
+        LSUIElement: true
+        LSMinimumSystemVersion: $(MACOSX_DEPLOYMENT_TARGET)
+        LSApplicationCategoryType: public.app-category.utilities
+        NSHumanReadableCopyright: "© 2026 Ahmet Onur. MIT License."
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ahmetonurs.Matrix
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        CODE_SIGN_IDENTITY: "-"
+        CODE_SIGN_STYLE: Manual
+        ENABLE_HARDENED_RUNTIME: YES
+        ENABLE_APP_SANDBOX: NO
+        LOCALIZATION_PREFERS_STRING_CATALOGS: YES
+        ENABLE_USER_SCRIPT_SANDBOXING: NO
+    postCompileScripts:
+      - name: Copy local art
+        # Third-party illustrations can't be redistributed, so they live in the git-ignored LocalAssets/
+        # folder and are bundled only when present. Without them the app draws its own card art.
+        script: |
+          # Public release builds pass EXCLUDE_LOCAL_ASSETS=YES so the art never ships.
+          if [ "${EXCLUDE_LOCAL_ASSETS:-NO}" != "YES" ] && [ -d "$SRCROOT/LocalAssets" ]; then
+            cp "$SRCROOT"/LocalAssets/*.jpg "$TARGET_BUILD_DIR/$UNLOCALIZED_RESOURCES_FOLDER_PATH/" 2>/dev/null || true
+          fi
+        basedOnDependencyAnalysis: false
+  MatrixTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - path: Tests
+    dependencies:
+      - target: Matrix
+    settings:
+      base:
+        CODE_SIGN_IDENTITY: "-"
+        CODE_SIGN_STYLE: Manual
+        GENERATE_INFOPLIST_FILE: YES
+        BUNDLE_LOADER: $(TEST_HOST)
+        TEST_HOST: $(BUILT_PRODUCTS_DIR)/Matrix.app/Contents/MacOS/Matrix
+schemes:
+  Matrix:
+    build:
+      targets:
+        Matrix: all
+        MatrixTests: [test]
+    test:
+      targets:
+        - MatrixTests

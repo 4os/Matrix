@@ -1,0 +1,476 @@
+{
+  "sourceLanguage": "en",
+  "version": "1.0",
+  "strings": {
+    "%@ / %@ GB used": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ / %2$@ GB kullanılıyor"
+          }
+        }
+      }
+    },
+    "%@ · uptime %@": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%1$@ · uptime %2$@"
+          }
+        }
+      }
+    },
+    "%lldd %lldh": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lldg %llds"
+          }
+        }
+      }
+    },
+    "%lldh %lldm": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%llds %llddk"
+          }
+        }
+      }
+    },
+    "%lldm": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%llddk"
+          }
+        }
+      }
+    },
+    "// no notes yet": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "// henüz not yok"
+          }
+        }
+      }
+    },
+    "ANGEL": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "MELEK"
+          }
+        }
+      }
+    },
+    "Apps %@": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Uygulama %@"
+          }
+        }
+      }
+    },
+    "BLACK SUN": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "KARA GÜNEŞ"
+          }
+        }
+      }
+    },
+    "Be careful today": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bugün dikkatli ol"
+          }
+        }
+      }
+    },
+    "CARD OF THE DAY": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GÜNÜN KARTI"
+          }
+        }
+      }
+    },
+    "CRITICAL": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "KRİTİK"
+          }
+        }
+      }
+    },
+    "Compressed %@": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sıkıştırılmış %@"
+          }
+        }
+      }
+    },
+    "DAILY LUCK": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GÜNLÜK ŞANS"
+          }
+        }
+      }
+    },
+    "Don't rush; think every step through twice.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Acele etme, her adımı iki kez düşün."
+          }
+        }
+      }
+    },
+    "Don't take risks. A new card awaits you tomorrow.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Riske girme. Yarın yeni bir kart seni bekliyor."
+          }
+        }
+      }
+    },
+    "Draw your card": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kartını çek"
+          }
+        }
+      }
+    },
+    "EYE": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "GÖZ"
+          }
+        }
+      }
+    },
+    "Fan %@ rpm": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fan %@ rpm"
+          }
+        }
+      }
+    },
+    "HIGH": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "YÜKSEK"
+          }
+        }
+      }
+    },
+    "Just an ordinary day": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bugün sıradan bir gün"
+          }
+        }
+      }
+    },
+    "Launch at Login": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oturum Açıldığında Başlat"
+          }
+        }
+      }
+    },
+    "MEMORY": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "BELLEK"
+          }
+        }
+      }
+    },
+    "MEMORY PRESSURE": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "BELLEK BASKISI"
+          }
+        }
+      }
+    },
+    "MODERATE": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ORTA"
+          }
+        }
+      }
+    },
+    "MOON": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "AY"
+          }
+        }
+      }
+    },
+    "NEW CARD · %@": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "YENİ KART · %@"
+          }
+        }
+      }
+    },
+    "NOMINAL": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "NOMINAL"
+          }
+        }
+      }
+    },
+    "NORMAL": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "NORMAL"
+          }
+        }
+      }
+    },
+    "Power %@ W": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Güç %@ W"
+          }
+        }
+      }
+    },
+    "QUICK NOTE": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "HIZLI NOT"
+          }
+        }
+      }
+    },
+    "Quit Matrix": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Matrix'ten Çık"
+          }
+        }
+      }
+    },
+    "STAR": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "YILDIZ"
+          }
+        }
+      }
+    },
+    "STORAGE · %@": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "DEPOLAMA · %@"
+          }
+        }
+      }
+    },
+    "TEMPERATURE": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "SICAKLIK"
+          }
+        }
+      }
+    },
+    "THERMAL: ": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "TERMAL: "
+          }
+        }
+      }
+    },
+    "WARNING": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "UYARI"
+          }
+        }
+      }
+    },
+    "Wired %@": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kablolu %@"
+          }
+        }
+      }
+    },
+    "You hold the balance. No big win, no big loss.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Denge sende. Ne büyük kazanç ne kayıp."
+          }
+        }
+      }
+    },
+    "You're lucky today": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bugün şanslısın"
+          }
+        }
+      }
+    },
+    "You're unlucky today": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bugün şanssızsın"
+          }
+        }
+      }
+    },
+    "You're very lucky today": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bugün çok şanslısın"
+          }
+        }
+      }
+    },
+    "Your path is bright. A little courage is enough.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yolun aydınlık. Küçük bir cesaret yeter."
+          }
+        }
+      }
+    },
+    "Your wings will carry you. Take the big step today.": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kanatların seni taşıyacak. Büyük adımı bugün at."
+          }
+        }
+      }
+    },
+    "free": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "boş"
+          }
+        }
+      }
+    },
+    "type something...": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "bir şey yaz..."
+          }
+        }
+      }
+    },
+    "⏎ save · ⇧⏎ newline": {
+      "localizations": {
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "⏎ kaydet · ⇧⏎ satır"
+          }
+        }
+      }
+    }
+  }
+}

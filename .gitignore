@@ -1,0 +1,9 @@
+.DS_Store
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+# Third-party art that can't be redistributed (see project.yml)
+LocalAssets/
+# The HTML design prototype stays local
+design/
